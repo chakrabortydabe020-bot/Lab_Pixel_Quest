@@ -20,9 +20,16 @@ public class GeoController : MonoBehaviour
                     break;
                 }
             case "Finish":
+                {
+                    SceneManager.LoadScene(Next_Level);
+                    break;
+                }
+            case "Coin":
+                {
+                    Destroy(collision.gameObject);
+                    break;
+                }
 
-                SceneManager.LoadScene(Next_Level);
-                break;
         }
     }
 
