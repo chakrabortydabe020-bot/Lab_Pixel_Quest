@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 035b2845e0d8d094ebdb9170b6aa5ac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startScene: 
+  startScene: Pixel_Quest_Level_1
 --- !u!4 &73903315
 Transform:
   m_ObjectHideFlags: 0
